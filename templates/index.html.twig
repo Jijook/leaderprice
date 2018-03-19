@@ -3,6 +3,21 @@
 {% block title %}{{ parent() }} - Index{% endblock %}
 
 {% block body %}
-    <p>Voici ma liste de course de leader price !</p>
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Leader price !</h1>
+        <p class="lead">Liste de course </p>
+    </div>
+    </div>
+    <h1></h1>
+        <ul class="list-group">
+            <li class="list-group-item">Beurre</li>
+            <li class="list-group-item">Lait</li>
+            <li class="list-group-item">Fromage</li>
+            <li class="list-group-item">Sauce tomate</li>
+            <li class="list-group-item">Thé vert</li>
+        </ul>
+        <br />
+    <button type="button" class="btn btn-info">Valider</button>
 {% endblock %}
 
